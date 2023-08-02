@@ -39,6 +39,12 @@ function useEnjoyHint (targets: MaybeRefOrGetter<TsEnjoyHintOptions>): { open: (
     };
 }
 
+declare module 'vue' {
+    interface ComponentCustomProperties {
+        [pluginName]: TsEnjoyHint;
+    }
+}
+
 export {
     TsEnjoyHintSetSettings as EnjoyHintSetSettings, createEnjoyHint, useEnjoyHint, type TsEnjoyHintOptions as EnjoyHintOptions, type TsEnjoyHintShape as EnjoyHintShape, type TsEnjoyHintTarget as EnjoyHintTarget, type TsEnjoyHintTargetOption as EnjoyHintTargetOption
 };
