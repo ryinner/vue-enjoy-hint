@@ -1,6 +1,6 @@
 {
   "name": "@ryinner/vue-enjoy-hint",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "vue wrapper for ts-enjoy-hint",
   "main": "index.js",
   "types": "./dist/src/index.d.ts",
