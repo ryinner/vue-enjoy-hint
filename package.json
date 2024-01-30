@@ -1,6 +1,6 @@
 {
   "name": "@ryinner/vue-enjoy-hint",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue wrapper for ts-enjoy-hint",
   "main": "index.js",
   "types": "./dist/src/index.d.ts",
@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/ryinner/vue-enjoy-hint#readme",
   "devDependencies": {
-    "@ryinner/ts-enjoy-hint": "^1.0.2",
+    "@ryinner/ts-enjoy-hint": "^1.0.3",
     "@types/node": "^20.4.5",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@vitejs/plugin-vue": "^4.2.3",
@@ -49,7 +49,7 @@
     "typescript": "^5.1.6",
     "vite": "^4.4.7",
     "vite-plugin-dts": "^3.3.1",
-    "vue": "^3.3.4",
-    "vue-tsc": "^1.8.8"
+    "vue": "^3.4.15",
+    "vue-tsc": "^1.8.27"
   }
 }
